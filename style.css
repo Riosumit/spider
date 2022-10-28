@@ -8,6 +8,10 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
+.home{
+    position: relative;
+    width: 100vw;
+}
 .bg{
     position: absolute;
     width: 100vw;
@@ -40,15 +44,16 @@ body{
     line-height: 1rem;
 }
 .sign{
-    width: 50%;
+    width: 100%;
     font-size: 2.5rem;
     line-height: 3rem;
     font-weight: 600;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     color: white;
     margin: 12vw 0px;
+    margin-left: 7vw;
 }
 .sign .button{
     display: flex;
