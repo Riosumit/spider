@@ -25,6 +25,7 @@ body{
     align-items: center;
     padding: 15px 40px;
     background-color: rgb(0 0 0 / 39%);
+    font-style: Inter;
 }
 .logo{
     font-size: 1.9rem;
@@ -54,6 +55,7 @@ body{
     color: white;
     margin: 10vw 0px;
     margin-left: 7vw;
+    font-family: Worrk sans;
 }
 .sign .button{
     display: flex;
@@ -71,7 +73,7 @@ body{
     box-shadow: rgba(175, 173, 173, 0.3) 0px 19px 38px, rgba(177, 169, 169, 0.22) 0px 15px 12px;
 }
 .sign button:nth-child(odd){
-    width: 250px;
+    width: 200px;
     max-width: 50vw;
 }
 .sign button:nth-child(even){
