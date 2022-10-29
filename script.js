@@ -1,5 +1,10 @@
 function sleep(ms){
-    return new Promise(resolve => setTimeout(resolve,ms));
+    try{
+        p = new Promise(resolve => setTimeout(resolve, ms),false);
+    }
+    catch(e){
+    }
+    return p;
 }
 let color1 = ["red", "yellow", "green"]
 job()
